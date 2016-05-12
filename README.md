@@ -1,7 +1,7 @@
 # Abandoned Mods
 These mods date back to 2013/2014 when I had just recently started modifying Minecraft. These mods will most likely not get updated or remade.
 
-"DecoOres" was supposed to be a mod with which you can have decorative items regarding ores and it would include mod's ores as well. It currently only has normal ore blocks as decoration.
+"DecoOres" was supposed to be a mod with which you can have decorative items regarding ores and it would include mod's ores as well. It currently only has normal ore blocks as decoration. The source code of it is nowhere to be found.
 
 "WoodConverter new" is the old rewritten WoodConverter from before Geforce was an awesome human and wrote the current [WoodConverter GUI](https://trello.com/b/PJU5lI6Q/wood-converter-gui) for me.
 It has a few converting blocks and an ore which was needed to run these converter blocks, similar to a vanilla furnace.
