@@ -8,9 +8,9 @@ public class SCBlockReg
 
 	public SCBlockReg()
 	{
-		GameRegistry.registerBlock(sc.scHead, "scHead");
-		GameRegistry.registerBlock(sc.gscHead, "scHeadGlow");
-		GameRegistry.registerBlock(sc.scBody, "scBody");
-		GameRegistry.registerBlock(sc.oscBody, "scBlock");
+		GameRegistry.registerBlock(Scarecrow.scHead, "scHead");
+		GameRegistry.registerBlock(Scarecrow.gscHead, "scHeadGlow");
+		GameRegistry.registerBlock(Scarecrow.scBody, "scBody");
+		GameRegistry.registerBlock(Scarecrow.oscBody, "scBlock");
 	}
 }

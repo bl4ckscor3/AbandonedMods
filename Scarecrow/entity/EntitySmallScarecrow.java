@@ -1,44 +1,24 @@
 package Minecrafter1912.Scarecrow.entity;
 
-import net.minecraft.block.Block;
-import net.minecraft.entity.Entity;
-import net.minecraft.nbt.NBTTagCompound;
-import net.minecraft.world.World;
 import Minecrafter1912.Scarecrow.Scarecrow;
+import net.minecraft.entity.EntityLiving;
+import net.minecraft.init.Blocks;
+import net.minecraft.item.ItemStack;
+import net.minecraft.world.World;
 
-public class EntitySmallScarecrow extends Entity
+public class EntitySmallScarecrow extends EntityLiving
 {
 	public EntitySmallScarecrow(World world)
 	{
 		super(world);
 		this.setVelocity(0, 0, 0);
 	}
-	
-	public int getMaxHealth()
-	{
-		return 100;
-	}
-	
+
 	public void dropFewItems(boolean b, int i)
 	{
-		this.dropItem(Scarecrow.scHead.blockID, 1);
-		this.dropItem(Scarecrow.scBody.blockID, 1);
-		this.dropItem(Block.fence.blockID, 1);
-		this.dropItem(Block.woodenButton.blockID, 2);
-	}
-
-	@Override
-	protected void entityInit() 
-	{	
-	}
-
-	@Override
-	protected void readEntityFromNBT(NBTTagCompound nbttagcompound)
-	{	
-	}
-
-	@Override
-	protected void writeEntityToNBT(NBTTagCompound nbttagcompound) 
-	{
+		this.entityDropItem(new ItemStack(Scarecrow.scHead, 1), 0.0F);
+		this.entityDropItem(new ItemStack(Scarecrow.scBody, 1), 0.0F);
+		this.entityDropItem(new ItemStack(Blocks.fence, 1), 0.0F);
+		this.entityDropItem(new ItemStack(Blocks.wooden_button, 2), 0.0F);
 	}
 }
