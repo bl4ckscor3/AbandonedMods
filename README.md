@@ -8,6 +8,8 @@ It has a few converting blocks and an ore which was needed to run these converte
 
 "Scarecrow" was a mod with, you guessed it, scarecrows. They would serve as a protector of your fields or house etc. as they didn't allow mobs to come near to them.
 I planned several tiers of scarecrows, which have different abilities and effects on the mobs and a higher range where mobs couldn't spawn/come close to.
+In October 2018 this mod has been revived for SpookyJam 2018 and can be downloaded for Minecraft 1.12.2 at https://minecraft.curseforge.com/projects/scarecrows
+The code can be found here: https://github.com/bl4ckscor3/Scarecrows
 
 ---
 
